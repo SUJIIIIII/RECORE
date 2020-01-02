@@ -86,6 +86,7 @@
 	List<Vo_Order_Num> list_order = (List<Vo_Order_Num>)request.getAttribute("list_order");
 	int ocount = 0;
 //	int olist_size = list_order.get(0).getOlist().size();	
+// 정신차려 미친놈아 ㅠㅠㅠㅠㅠ
 %>
 	<!-- header -->
 	<%@ include file="/header.jsp" %>
