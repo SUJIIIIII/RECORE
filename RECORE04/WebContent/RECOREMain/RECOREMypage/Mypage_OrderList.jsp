@@ -84,7 +84,8 @@
 <body id="main">
 <%
 	List<Vo_Order_Num> list_order = (List<Vo_Order_Num>)request.getAttribute("list_order");
-	//제발 이미친놈아....ㅠ
+	int ocount = 0;
+//	int olist_size = list_order.get(0).getOlist().size();	
 %>
 	<!-- header -->
 	<%@ include file="/header.jsp" %>
@@ -214,6 +215,7 @@
 									<p class="gBlank5">무이자할부 상품</p>
 				                </td>
 				                <td>${order.olist[count].order_amount}개</td>
+				                <%-- <td><%=list_order.get(0).getOlist().size() %>개</td> --%>
 				                <!-- <td>1개</td> -->
 				                <td class="right">
 									<strong></strong><div class=""><fmt:formatNumber value="${order.olist[count].order_price}" groupingUsed="true"></fmt:formatNumber>원</div>

@@ -24,7 +24,7 @@
   <body>
  
     			<!-- footer 라인 -->
-	<footer class="site-footer border-top" style = "background-color: #A0D9D9; height: 185.6px;"">
+	<footer class="site-footer border-top" style = "background-color: #A0D9D9; height: 185.6px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mb-5 mb-lg-0">
